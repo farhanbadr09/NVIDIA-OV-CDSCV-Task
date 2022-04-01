@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "interviewproject"
+version = "0.1.0"
+description = ""
+authors = ["penguindustin <penguindustin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.0"
+SQLAlchemy = "^1.4.15"
+pytest = "^6.2.4"
+pytest-mock = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
